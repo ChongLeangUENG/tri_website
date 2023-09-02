@@ -1,0 +1,109 @@
+.forexplication {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.forexplication-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.forexplication-text h2 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+}
+
+.subtitle1-text {
+  width: 300px;
+  padding: 0 30px;
+  width: 100%;
+  border-radius: 13px;
+}
+
+.subtitle1-text h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+  text-align: start;
+}
+
+.subtitle2-text {
+  width: 300px;
+  padding: 0 30px;
+  width: 100%;
+  border-radius: 13px;
+}
+
+.subtitle2-text h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+  text-align: start;
+}
+
+.subtitle3-text {
+  width: 300px;
+  padding: 0 30px;
+  width: 100%;
+  border-radius: 13px;
+}
+
+.subtitle3-text h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+  text-align: start;
+}
+
+.text1-box {
+  width: 300px;
+  padding: 0 30px;
+  width: 100%;
+  border-radius: 13px;
+}
+
+.text1-box p {
+  font-size: 1.1rem;
+  color: #ff0000;
+  text-align: start;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 0 2rem 0;
+}
+
+.text2-box {
+  width: 300px;
+  padding: 0 30px;
+  width: 100%;
+  border-radius: 13px;
+}
+
+.text2-box p {
+  font-size: 1.1rem;
+  color: #000000;
+  text-align: start;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 0 2rem 0;
+}
+
+.text3-box a {
+    font-size: 1.1rem;
+    color: #000000;
+    text-align: start;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    padding: 0.5rem 0 2rem 0;
+}

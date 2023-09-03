@@ -1,0 +1,11 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ptcvhcm34xci/public_html   # Replace 'username' with your cPanel username
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R .* $DEPLOYPATH  # Copy hidden files and folders
+    - /bin/rm -rf $DEPLOYPATH/node_modules   # Remove node_modules folder
+    - /usr/local/bin/npm --prefix $DEPLOYPATH install --production   # Install production dependencies
+    - /usr/local/bin/npm --prefix $DEPLOYPATH run build   # Build your React website
+  approot: public_html   # Directory where the built website resides

@@ -31,7 +31,7 @@ const Calculator = () => {
         <label>r (Taux d'intérêt en %):</label>
         <input type="text" value={r} onChange={(e) => setR(e.target.value)} />
       </div>
-      <button className="calculate-button" onClick={calculateTRI}>Calculate TRI</button>
+      <button className="calculate-button" onClick={calculateTRI}>Calculer le TRI</button>
       {triResult && <p className="result">Résultat du TRI : {triResult}%</p>}
     </div>
   );

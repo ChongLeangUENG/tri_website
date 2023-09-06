@@ -7,12 +7,10 @@ function Calculatrice() {
   return (
     <>
       <NavBar />
-      <ForCalculatrice 
-      cName="forcalculatrice" 
-      resumeImg={ExpImg} 
-      
-      />
-      
+      <ForCalculatrice cName="forcalculatrice" resumeImg={ExpImg} />
+      <footer style={{ textAlign: "center", margin: "20px 0", color: "black" }}>
+        © {new Date().getFullYear()} Sam Rainsy. Tous droits réservés.
+      </footer>
     </>
   );
 }
